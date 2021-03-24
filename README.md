@@ -11,3 +11,8 @@ There are three folders found in this repo:
 * scripts --> N/A
 * src --> index.html
 * style --> style.css
+
+### Homework 5 - Simple Calculator Assignment
+* scripts --> calculator.js
+* src --> calculator.html
+* style --> calculator.css
