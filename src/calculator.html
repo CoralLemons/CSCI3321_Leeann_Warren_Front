@@ -6,8 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style/calculator.css">
     <title>Simple Calculator</title>
+    <script>
+        function updateDisplay(newValue){
+            // find the display box
+            var dc = document.getElementById('display');
+            dc.innerHTML += newValue;
+        }
+    </script>
 </head>
 <body>
-    
+    <div id="container">
+        <div id="display"></div>
+        <div class="key plus" onclick="updateDisplay('+')">+</div> <!--Use this format for the rest of the numbers and keys-->
+    </div>
 </body>
 </html>
