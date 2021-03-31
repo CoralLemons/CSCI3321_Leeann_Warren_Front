@@ -16,3 +16,8 @@ There are three folders found in this repo:
 * scripts --> calculator.js
 * src --> calculator.html
 * style --> calculator.css
+
+### Homework 6 - Tic Tac Toe Game
+* scripts --> tictactoe.js
+* src --> tictactoe.html
+* style --> tictactoe.css
